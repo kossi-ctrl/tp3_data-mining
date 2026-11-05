@@ -1,0 +1,7 @@
+services:
+  td3:
+    build: .
+    image: td3-classification
+    container_name: td3-classification
+    ports:
+      - "127.0.0.1:18888:8888"

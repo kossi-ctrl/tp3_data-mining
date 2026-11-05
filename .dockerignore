@@ -1,0 +1,9 @@
+# Historique Git : inutile dans l'image
+.git
+
+# Sauvegardes automatiques de Jupyter
+.ipynb_checkpoints
+
+# Fichiers temporaires de Python
+__pycache__
+*.pyc
